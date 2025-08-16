@@ -1,10 +1,10 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
-from tensorflow.keras.datasets import mnist
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Dense, Flatten, Dropout
-from tensorflow.keras.utils import to_categorical
+from tensorflow.keras.datasets import mnist # type: ignore
+from tensorflow.keras.models import Sequential # type: ignore
+from tensorflow.keras.layers import Dense, Flatten, Dropout # type: ignore
+from tensorflow.keras.utils import to_categorical # type: ignore
 from sklearn.metrics import confusion_matrix, classification_report, accuracy_score
 
 # Load MNIST dataset
