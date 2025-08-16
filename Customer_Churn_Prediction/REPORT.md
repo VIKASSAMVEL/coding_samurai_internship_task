@@ -40,9 +40,15 @@ This project aims to predict customer churn using the Telco Customer Churn datas
   - Precision, recall, and F1-score provided for both churn and non-churn classes.
 
 ## Visualizations
-- Confusion matrix heatmap
-- Churn distribution bar chart
-- Top 10 feature importances
+
+### Confusion Matrix Heatmap
+![Confusion Matrix](confusion_matrix.png)
+
+### Churn Distribution Bar Chart
+![Churn Distribution](churn_distribution.png)
+
+### Top 10 Feature Importances
+![Feature Importances](feature_importance.png)
 
 ## Conclusion
 The logistic regression model provides a solid baseline with 81.7% accuracy. The most influential features for predicting churn are MonthlyCharges, InternetService, and PaperlessBilling. Further improvements can be made by using advanced models and feature engineering.

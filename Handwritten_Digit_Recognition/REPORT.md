@@ -32,9 +32,15 @@ This project uses the MNIST dataset to train a neural network for recognizing ha
   - Precision, recall, and F1-score are all very high for every digit class.
 
 ## Visualizations
-- Sample digit images (`mnist_samples.png`)
-- Confusion matrix heatmap (`confusion_matrix.png`)
-- Training accuracy history (`training_history.png`)
+
+### Sample Digit Images
+![Sample Digits](mnist_samples.png)
+
+### Confusion Matrix Heatmap
+![Confusion Matrix](confusion_matrix.png)
+
+### Training Accuracy History
+![Training History](training_history.png)
 
 ## Conclusion
 The neural network model achieves outstanding accuracy (98.1%) on the MNIST test set. The model is robust and generalizes well to unseen data. Further improvements can be made by using convolutional neural networks (CNNs) or advanced regularization techniques.
